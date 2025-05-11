@@ -1,7 +1,7 @@
 name: Schedule - Cypress API Tests
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 5 1 1 5*'
 jobs:
     cypress-run:
         runs-on: ubuntu-latest
