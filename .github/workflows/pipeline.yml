@@ -1,6 +1,6 @@
 name: Cypress API Tests
 on:
-    pull_request:
+    push:
         branches: [master]
 jobs:
     cypress-run:
