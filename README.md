@@ -23,6 +23,7 @@ Modo headless (execução em linha de comando, ideal para CI/CD)
 npx cypress run
 
 🔍 Exemplos de Testes
+
 Os testes estão organizados no diretório cypress/e2e/ e utilizam comandos como:
 
 
